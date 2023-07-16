@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login Form</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="stylesignin.css">
+<script src="jssignin.js"></script>
+<style>
+#co{
+background-color:Aquamarine;
+}
+iframe{
+position:absolute;
+top:90%;
+height:20px;
+width:100px;
+background-color:red;
+}</style>
+</head>
+<body>
+<div id="co">
+<div class="login-wrap">
+	<div class="login-html">
+		<input  id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+		<div class="login-form" >
+			<div class="sign-in-htm">
+			<form name="f2" >
+				<div class="group">
+					<label for="user" class="label">Email</label>
+					<input id="user" type="email" class="input" name="us2" placeholder="enter valid name">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Password</label>
+					<input id="pass" name="ps2" type="password" class="input" placeholder="enter password" name="ps2" data-type="password">
+				</div>
+				<div class="group">
+					<input id="check" type="checkbox" class="check">
+					<label for="check"><span class="icon"></span> Keep me Signed in</label>
+				</div>
+				<div class="group">
+					<input type="submit" class="button" value="Sign In" onclick="fun2()">
+				</div>
+				<div class="hr"></div>
+				<div class="foot-lnk">
+					<label for="tab-3">Forgot Password?</label>
+				</div>
+			</form>
+			</div>
+		
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>
