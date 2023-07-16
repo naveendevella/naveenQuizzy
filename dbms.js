@@ -209,6 +209,7 @@ const b_text = document.getElementById('b_text')
 const c_text = document.getElementById('c_text')
 const d_text = document.getElementById('d_text')
 const submitBtn = document.getElementById('submit')
+const nextBtn = document.getElementById('next')
 let currentQuiz = 0
 let score = 0
 loadQuiz()
@@ -271,7 +272,7 @@ function man()
     window.location.href="main.html";
 }
 let count=1;
-let btn=document.getElementById("submit");
+let btn=document.getElementById("next");
 let d=document.getElementById("dis");
 btn.onclick=function(){
     count++;
