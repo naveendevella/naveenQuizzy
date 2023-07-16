@@ -239,16 +239,32 @@ submitBtn.addEventListener('click', () => {
            score++
        }
        currentQuiz++
-       if(currentQuiz < quizData.length) {
-           loadQuiz()
-       } else {
-           quiz.innerHTML = `
-           <h2> In Python You Scored ${score} Out Of ${quizData.length}</h2>
-           <button onclick="man()">Reload</button>
-           `
-       }
+        quiz.innerHTML = `
+        <h2> In C You Scored ${score} Out Of ${quizData.length}</h2>
+        <button onclick="man()">Reload</button>
+        `
+       
+       
     }
 })
+    nextBtn.addEventListener('click', () => {
+        const answer = getSelected()
+        if(answer) {
+           if(answer === quizData[currentQuiz].correct) {
+               score++
+           }
+           currentQuiz++
+           if(currentQuiz < quizData.length) {
+               loadQuiz()
+           }
+           else{
+            quiz.innerHTML = `
+            <h2> In C You Scored ${score} Out Of ${quizData.length}</h2>
+            <button onclick="man()">Reload</button>
+            `
+           }
+        }
+    })
 function man()
 {
     window.location.href="main.html";
