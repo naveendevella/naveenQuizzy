@@ -192,11 +192,11 @@ const quizData = [
         correct: "c",
     },
     {
-        question: "Choose the right statement for fscanf() and scanf()?",
-        a: " fscanf() can read from standard input whereas scanf() specifies a stream from which to read",
-        b: " fscanf() can specifies a stream from which to read whereas scanf() can read only from standard input",
-        c: " fscanf() and scanf() has no difference in their functions",
-        d: " fscanf() and scanf() can read from specified stream",
+        question: "Which of the following mode argument is used to truncate?",
+        a: "a",
+        b: "w",
+        c: "f",
+        d: "t",
         correct: "b",
     },
 ];
