@@ -241,7 +241,7 @@ submitBtn.addEventListener('click', () => {
        }
        currentQuiz++
         quiz.innerHTML = `
-        <h2> In C You Scored ${score} Out Of ${quizData.length}</h2>
+        <h2> In Python You Scored ${score} Out Of ${quizData.length}</h2>
         <button onclick="man()">Reload</button>
         `
        
@@ -260,7 +260,7 @@ submitBtn.addEventListener('click', () => {
            }
            else{
             quiz.innerHTML = `
-            <h2> In C You Scored ${score} Out Of ${quizData.length}</h2>
+            <h2> In Python You Scored ${score} Out Of ${quizData.length}</h2>
             <button onclick="man()">Reload</button>
             `
            }
