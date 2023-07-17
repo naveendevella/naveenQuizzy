@@ -242,7 +242,7 @@ submitBtn.addEventListener('click', () => {
        }
        currentQuiz++
         quiz.innerHTML = `
-        <h2> In C You Scored ${score} Out Of ${quizData.length}</h2>
+        <h2> In DBMS You Scored ${score} Out Of ${quizData.length}</h2>
         <button onclick="man()">Reload</button>
         `
        
